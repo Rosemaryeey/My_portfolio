@@ -1,0 +1,140 @@
+ /* *{
+  background-color: #080800; 
+   padding: 0%;
+   margin: 0%;
+    
+   
+ } */
+
+
+ .te{
+ color:var(--body_color);
+ }
+.bo
+{
+  text-shadow: var( --text_shadow);
+}
+.bm{
+ background-color: var( --body_background);
+ width: screen;
+}
+
+ ::after,::before{
+  box-sizing: border-box;
+ }
+
+.pan{
+  border-bottom: 2px 2px solid  rgb(255, 196, 0);
+  border-bottom: 3px 3px solid rgb(255, 196, 0);
+  padding-bottom: 1px;
+   
+}
+
+
+ 
+.flip2{
+  transform: rotateY(90deg);
+}
+
+ .flip{
+  position: absolute;
+}
+
+.flip:hover{
+animation: twirl 0.2s ease-in forwards ;
+
+}
+
+.flip2:hover {
+animation: twirl 0.2s ease-out forwards reverse ;
+
+}
+@keyframes twirl {
+  0%{ transform: rotateY(0deg)}
+  100%{ transform: rotateY(90deg)}
+}
+ 
+
+/* Services */
+
+.oh{
+  transition: 2s ease;
+ 
+}
+.oh:hover{
+ transform: scale(1.1);
+ background-color: var( --header_color);
+}
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* h1 {
+  font-size: 90px;
+  font-weight: 500;
+  color: white;
+  text-transform: capitalize;
+  /* text-shadow: 2px 3px 5px green; */
+  /* -webkit-text-stroke-color: orange; */
+  /* -webkit-text-stroke: 0.3vh #329d52 ; 
+
+
+
+  animation-name: move;
+  animation-duration: 5s;
+ 
+}
+
+h1::before{
+    content:  attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 20%;
+    color: rgb(255, 187, 0);
+    -webkit-text-stroke: 0vw #383d52;
+    border-right: 2px  solid white;
+    overflow: hidden;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+
+    0%,10%,100%
+    {
+       width: 0;
+
+    }
+    70%,90%
+    {
+        width: 100%;
+    }
+}
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(50px);
+  }
+} */

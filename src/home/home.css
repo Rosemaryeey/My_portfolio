@@ -1,0 +1,147 @@
+
+.spen{
+    position: relative;
+    /* text-shadow:2px 3px 5px rgb(236, 182, 4), -2px -3px 5px rgb(236, 182, 4); ; */
+}
+    
+    
+.spen::before{
+    content: " Web Dev ";
+    color:rgb(236, 182, 4) ;
+    animation: words 20s infinite;
+}
+
+.spen::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color: var(--body_background);
+    border-left: 2px solid rgb(236, 182, 4);
+    right: -8px;
+    animation: cursor .8s infinite, typing 20s steps(14) infinite;
+   
+}
+ @keyframes cursor {
+    to{
+        border-left:2px solid rgb(236, 182, 4) ;
+    }
+ }
+
+ @keyframes words {
+    0%, 20%{
+        content: "Frontend";
+    }
+      21%, 40%{
+        content: "Backend";
+    }
+      41%, 60%{
+        content: "Full stack";
+    }
+      61%, 80%{
+        content: " Dev";
+    }
+ }
+
+
+ @keyframes typing {
+    10%, 15%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%{
+  width: 0;
+
+    }
+
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%{
+ width: calc(100% + 8px);
+    
+    }
+ }
+
+ .btn{
+
+     color: var(--body_color);
+ }
+.btn:hover{
+    color: var(--body_color);
+     box-shadow: 2px 5px 10px rgb(236, 182, 4), -2px -5px 10px rgb(236, 182, 4);
+      background-color:rgb(236, 182, 4) ;
+}
+
+.img{
+    transition: 2s ease;
+    animation: turn 1s ease-out;
+    box-shadow: 2px 2px 5px rgb(236, 182, 4), -2px -2px 5px rgb(236, 182, 4);
+    background-color:rgb(236, 182, 4);
+}
+
+.img:hover,
+.img:active{
+    box-shadow: 2px 3px 10px rgb(10, 10, 10), -2px -3px 10px rgb(19, 19, 18);
+
+}
+
+.im{
+
+     animation: float 4s ease-in-out infinite;
+}
+.im:hover,
+.im:active{
+    box-shadow: 10px 15px 30px rgb(236, 182, 4), -10px -15px 30px rgb(236, 182, 4);
+
+}
+
+
+
+@keyframes turn {
+    
+    0%, 100%{
+        transform:translatex(40vh);
+        animation-timing-function: linear;
+    }
+    100%{
+        transform: none;
+        animation-timing-function: linear;
+    }
+}
+
+
+.tex{
+    
+    animation:  move 0.1s ease-in-out;
+   
+}
+
+
+
+@keyframes move {
+    
+    0%, 100%{
+        transform:translatex(-40vh);
+        animation-timing-function: linear;
+    }
+    100%{
+        transform: none;
+        animation-timing-function: linear;
+    }
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform:translateY(2.4rem) ;
+    }
+
+    100%{
+
+        transform: translateY(0);
+    }
+}
+.icon{
+
+    transition: 1s ease;
+}
+
+.icon:hover{
+    transform: scale(1.1);
+}
