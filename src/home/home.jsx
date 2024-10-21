@@ -197,17 +197,17 @@ export const Home = () => {
         <div
           data-aos="fade-up"
           id="about"
-          className="  bo te font-serif section md:w-[100%] w-[100%] flex  items-center justify-center   "
+          className="  bo te font-serif section md:w-[100%] w-[100%] flex  items-center justify-center    "
         >
-          <main className=" md:h-[100vh] h-[140vh] flex flex-col items-center md:justify-around justify-between my-3   ">
+          <main className=" h-fit gap-y-5 flex flex-col items-center md:justify-around justify-between   ">
             <h1 className=" te md:text-6xl text-4xl font-bold font-serif py-3 h-[20vh]">
               <span className=" border-b-4 border-yellow-500"> Abou</span>t{" "}
               <span className="text-yellow-500">Me</span>
             </h1>
-            <div className=" md:h-[100vh] h-[90vh] md:w-[90vw]  flex items-center justify-center  px-5 ">
-              <div className=" te md:w-[85vw] w-[80vw] md:h-[100vh] h-[90vh]    flex md:items-center items-center justify-around  md:flex-row  flex-col-reverse ">
-                <section className=" text md:w-[40vw] w-[90vw]  md:h-[80vh] h-[75vh] p-5 flex flex-col items-center justify-around ">
-                  <div className="flex flex-col items-start justify-around  md:h-[70vh] h-[75vh] ">
+            <div className=" h-fit md:w-[90vw]  flex items-center justify-center  px-5 ">
+              <div className=" te md:w-[85vw] w-[80vw] h-fit  flex md:items-center items-center justify-around  md:flex-row  flex-col-reverse ">
+                <section className=" text md:w-[40vw] w-[90vw]  p-5 flex flex-col items-center justify-around ">
+                  <div className="flex flex-col items-start justify-around  space-y-5  ">
                     <h2 className="text-2xl text-yellow-500">It's Rosemary</h2>
                     <p className="py-3">
                       As a passionate full-stack JavaScript developer, I bring
@@ -220,7 +220,7 @@ export const Home = () => {
                   </div>
                 </section>
 
-                <section className=" text md:w-[40vw] w-[90vw]   md:h-[80vh] h-[60vh] p-5 flex flex-col items-center justify-around ">
+                <section className=" text md:w-[40vw] w-[90vw]  space-y-5 p-5 flex flex-col items-center justify-around  ">
                   <div className=" md:w-[35vw] w-[90vw] flex md:flex-col flex-row sm:items-start items-center justify-around  md:h-[60vh] h-[35vh]">
                     <aside className=" flex items-center  justify-around md:w-[40vw] w-[58vw] md:h-[20vh] h-[30vh] ">
                       <div className=" shadow-md shadow-yellow-500 bo md:w-[15vw] w-[22vw] md:h-[25vh] h-[25vh] rounded-2xl  flex flex-col p-6 justify-around items-center border-white  border-2">
@@ -267,9 +267,9 @@ export const Home = () => {
       {/* Project........................................ */}
 
       <div data-aos="zoom-in" className=" te bo " id="project">
-        <div className="  section w-[100%]   flex items-start justify-center sm:h-fit  ">
+        <div className="  h-fit w-[100%]   flex items-start justify-center    ">
           <div className=" h-fit md:w-[95vw] w-[90vw] flex items-center justify-around px-5 md:flex-col flex-col ">
-            <h1 className="te  md:text-6xl text-4xl font-extrabold h-[20vh] w-[100%] font-serif flex justify-center items-center   ">
+            <h1 className="te  md:text-6xl text-4xl font-extrabold h-[15vh] w-[100%] font-serif flex justify-center items-center ">
               <h2 className="pan">
                 <span className="text-yellow-500"> P</span>roj
               </h2>
@@ -287,10 +287,10 @@ export const Home = () => {
       <div
         data-aos="flip-right"
         id="services"
-        className="  te section w-[100%]  flex md:items-center items-start justify-center md:h-[115vh] h-[115vh]    "
+        className="  te  w-[100%]  flex md:items-center items-start justify-center h-fit      "
       >
-        <div className="  flex flex-col items-center md:justify-around justify-between  md:w-[95vw] w-[100%] md:h-[120vh] h-[130vh]  ">
-          <h1 className=" te md:text-6xl text-4xl w-[85vw] h-[30vh] flex items-center justify-center font-extrabold font-serif ">
+        <div className="  flex flex-col items-center md:justify-around justify-between  md:w-[95vw] w-[100%]  h-fit space-x-5  space-y-10  ">
+          <h1 className=" te md:text-6xl text-4xl w-[85vw] h-[15vh]  flex items-center justify-center font-extrabold font-serif  ">
             <span className=" pan  py-3  border-b-4 border-yellow-500">
               {" "}
               Serv
@@ -298,8 +298,8 @@ export const Home = () => {
             ices
           </h1>
 
-          <div className=" bo flex flex-col  items-center justify-around md:h-[100vh] h-[100vh] md:w-[80vw] w-[85vw] ">
-            <div className=" flex md:items-center items-center justify-around  md:h-[50vh] h-[55vh]  md:w-[80vw] text-yellow-500  md:flex-row flex-col">
+          <div className=" bo flex flex-col  items-center justify-around h-fit space-y-7 md:w-[80vw] w-[85vw]   ">
+            <div className=" flex md:items-center items-center justify-around  h-fit space-y-7  md:w-[80vw] text-yellow-500  md:flex-row flex-col">
               <div
                 className=" oh p-3 md:w-[20vw] w-[80vw] md:h-[30vh] h-[12vh] rounded-3xl hover:bg-white flex flex-col items-start justify-center  shadow-yellow-500 shadow-md 
             "
@@ -329,7 +329,7 @@ export const Home = () => {
               </div>
             </div>
 
-            <div className=" flex items-center justify-around  md:h-[40vh] h-[55vh]  md:w-[80vw] text-yellow-500  md:flex-row flex-col">
+            <div className=" flex items-center justify-around  h-fit space-y-7  md:w-[80vw] text-yellow-500  md:flex-row flex-col">
               <div className="  oh flex flex-col items-start justify-center  md:w-[20vw] w-[80vw] md:h-[30vh] h-[12vh] rounded-3xl  px-5 hover:bg-white  shadow-yellow-500 shadow-md ">
                 <h3 className="md:text-2xl text-xl  font-bold bg-transparent">
                   Frontend
@@ -367,10 +367,10 @@ export const Home = () => {
       <div
         data-aos="fade-up"
         id="contact"
-        className="te section md:w-[100%] flex items-start justify-center my-[10vh]"
+        className="te section md:w-[100%] flex items-start justify-center h-fit "
       >
-        <div className="flex flex-col items-center justify-start md:h-[120vh] h-[130vh] md:w-[85vw] w-[100%] p-5">
-          <section className="flex flex-col items-center justify-around md:h-[100vh] h-[120vh] md:w-[80vw] w-[90vw]">
+        <div className="flex flex-col items-center justify-start h-fit md:w-[85vw] w-[100%] p-5">
+          <section className="flex flex-col items-center justify-around h-fit md:w-[80vw] w-[90vw]">
             <h1 className="te md:text-6xl text-4xl font-extrabold font-serif pb-3">
               <span className="border-b-4 border-yellow-500"> Cont</span>act{" "}
               <span className="text-yellow-500">Me</span>
