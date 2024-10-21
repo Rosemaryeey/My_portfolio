@@ -289,7 +289,7 @@ export const Home = () => {
         id="services"
         className="  te  w-[100%]  flex md:items-center items-start justify-center h-fit      "
       >
-        <div className="  flex flex-col items-center md:justify-around justify-between  md:w-[95vw] w-[100%]  h-fit space-x-5  space-y-10  ">
+        <div className="  flex flex-col items-center md:justify-around justify-between  md:w-[95vw] w-[100%]  h-fit  space-y-10  ">
           <h1 className=" te md:text-6xl text-4xl w-[85vw] h-[15vh]  flex items-center justify-center font-extrabold font-serif  ">
             <span className=" pan  py-3  border-b-4 border-yellow-500">
               {" "}
