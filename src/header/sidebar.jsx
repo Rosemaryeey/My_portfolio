@@ -19,7 +19,7 @@ function Sidebar() {
         } bm sm:bg-transparent transition z-50 duration-500 overflow-hidden sm:w-64  sm:static  absolute top-0 sm:h-[90vh] text-yellow-500`}
       >
         {/* border-[1px] border-black   */}
-        <div className=" sm:hidden flex items-center justify-between p-10 text-3xl font-serif">
+        <div className=" sm:hidden flex items-center justify-between p-10 text-3xl font-serif border-yellow-500 border-b-2">
           Protfoilo
           <button
             className="sm:hidden text-2xl"
@@ -33,7 +33,7 @@ function Sidebar() {
         >
           <section
             className={
-              "sm:hidden flex flex-col justify-around items-start h-[70vh]  "
+              "sm:hidden flex flex-col justify-around items-start h-fit space-y-5 mt-10  "
             }
           >
             <a href="#home">Home</a>
