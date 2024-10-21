@@ -199,7 +199,7 @@ export const Home = () => {
           id="about"
           className="  bo te font-serif section md:w-[100%] w-[100%] flex  items-center justify-center    "
         >
-          <main className=" h-fit gap-y-5 flex flex-col items-center md:justify-around justify-between   ">
+          <main className=" h-fit flex flex-col items-center md:justify-around justify-between   ">
             <h1 className=" te md:text-6xl text-4xl font-bold font-serif py-3 h-[20vh]">
               <span className=" border-b-4 border-yellow-500"> Abou</span>t{" "}
               <span className="text-yellow-500">Me</span>
@@ -223,7 +223,7 @@ export const Home = () => {
                 <section className=" text md:w-[40vw] w-[90vw]  space-y-5 p-5 flex flex-col items-center justify-around  ">
                   <div className=" md:w-[35vw] w-[90vw] flex md:flex-col flex-row sm:items-start items-center justify-around  md:h-[60vh] h-[35vh]">
                     <aside className=" flex items-center  justify-around md:w-[40vw] w-[58vw] md:h-[20vh] h-[30vh] ">
-                      <div className=" shadow-md shadow-yellow-500 bo md:w-[15vw] w-[22vw] md:h-[25vh] h-[25vh] rounded-2xl  flex flex-col p-6 justify-around items-center border-white  border-2">
+                      <div className=" shadow-md shadow-yellow-500 bo md:w-[15vw] w-[22vw] md:h-[25vh] h-[25vh] rounded-2xl  flex flex-col p-6 justify-around items-center border-white  border-2 md:text-sm text-[0.79rem]">
                         <span
                           className="
                     text-yellow-500 text-3xl "
@@ -232,7 +232,7 @@ export const Home = () => {
                         </span>{" "}
                         Years Of Exprience
                       </div>
-                      <div className=" border-white  border-2 md:w-[15vw] w-[22vw] md:h-[25vh] h-[25vh] rounded-2xl  flex flex-col p-6 justify-around items-center  shadow-md shadow-yellow-500">
+                      <div className=" border-white  border-2 md:w-[15vw] w-[22vw] md:h-[25vh] h-[25vh] rounded-2xl  flex flex-col p-6 justify-around items-center  shadow-md shadow-yellow-500 md:text-sm text-[0.79rem]">
                         <span
                           className="
                     text-yellow-500 text-3xl "
@@ -245,7 +245,7 @@ export const Home = () => {
                     <aside className=" flex items-center  justify-around md:w-[20vw] w-[25vw] md:h-[20vh] h-[30vh] ">
                       <div
                         className=" border-white  border-2 md:w-[15vw] w-[22vw] md:h-[25vh] h-[25vh] rounded-2xl  flex flex-col p-6 justify-around items-center md:ml-[1vw] ml-0
-                  shadow-md shadow-yellow-500 "
+                  shadow-md shadow-yellow-500 md:text-sm text-[0.79rem] "
                       >
                         <span
                           className="

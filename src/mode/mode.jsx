@@ -25,7 +25,7 @@ function Mode() {
 
   return (
     <>
-      <div className=" wapper  md:h-[620vh] h-[960vh]   ">
+      <div className=" wapper  md:h-[620vh] h-[940vh]   ">
         <label className="switch z-10 md:bottom-[4.5vh] bottom-[-1vh] md:right-[25vw] right-[5vw]
          ">
           <input type="checkbox" onChange={switchTheme} />
