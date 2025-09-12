@@ -22,7 +22,7 @@ const DownloadButton = () => {
   return (
     <button
       onClick={handleDownload}
-      className="btn md:w-[10rem] w-[150px] md:h-[3rem] h-[50px] border-2 border-yellow-500 rounded-3xl flex items-center justify-center"
+      className="btn md:w-[8rem] w-[150px] md:h-[3rem] h-[50px]  border-2 border-yellow-500 rounded-lg flex items-center justify-center "
     >
       {downloadStatus === "idle" && "Download CV"}
       {downloadStatus === "inProgress" && "Downloading..."}

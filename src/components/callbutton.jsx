@@ -8,9 +8,9 @@ const CallButton = () => {
   return (
     <button
       onClick={handleCall}
-      className="btn md:w-[6rem] w-[100px] md:h-[3rem] h-[50px] border-2 border-yellow-500 rounded-3xl bg-yellow-500 shadow shadow-yellow-500 text-black"
+      className="btn md:w-[8rem] w-[130px] md:h-[3rem] h-[50px]  border-2 border-yellow-500 rounded-lg bg-yellow-500 shadow shadow-yellow-500 text-black"
     >
-      Hire Me
+      Contact Me
     </button>
   );
 };

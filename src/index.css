@@ -16,6 +16,9 @@
   --body_color: white;
   --Link_color: rgb(243, 198, 0);
   --header_color:black;
+   --card_color:black;
+   --c_color: rgb(243, 198, 0);
+   --bg_hover: white ;
   --border: 2px solid white;
 
 }
@@ -24,7 +27,10 @@
   --body_background:white;
   --body_color: black;
   --Link_color: rgb(243, 198, 0);
-   --header_color:rgb(219, 215, 215);
+   --header_color:rgb(199, 197, 197);
+  --card_color:rgb(199, 197, 197);
+     --c_color:rgb(41, 34, 3);
+       --bg_hover: black;
   --border: 2px solid black;
   --text_shadow: 2px 3px 5px rgb(255, 208, 0);
   
@@ -54,3 +60,4 @@
 .btn-lg{
   @apply h-[56px] px-10 text-base;
 } */
+

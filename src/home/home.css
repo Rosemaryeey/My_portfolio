@@ -1,14 +1,16 @@
 
 .spen{
     position: relative;
+  
     /* text-shadow:2px 3px 5px rgb(236, 182, 4), -2px -3px 5px rgb(236, 182, 4); ; */
 }
     
     
 .spen::before{
-    content: " Web Dev ";
+    content: " Web  Dev ";
     color:rgb(236, 182, 4) ;
     animation: words 20s infinite;
+  
 }
 
 .spen::after{
@@ -30,16 +32,16 @@
 
  @keyframes words {
     0%, 20%{
-        content: "Frontend";
+        content: " Front_end";
     }
       21%, 40%{
-        content: "Backend";
+        content: " Back_end";
     }
       41%, 60%{
         content: "Full stack";
     }
       61%, 80%{
-        content: " Dev";
+        content: " Developer";
     }
  }
 

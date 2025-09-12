@@ -1,24 +1,29 @@
 import React from "react";
 import "./App.css";
-import Header from "./header/header";
+import Header from "./components/header";
+import Footer from "./components/footer";
 import Home from "./home/home";
-import Mode from "./mode/mode";
-import Sidebar from "./header/sidebar";
+import Mode from "./components/mode";
+import Sidebar from "./components/sidebar";
 import { useState } from "react";
 import { Context } from "./Context";
 
 function App() {
-  const [togglebar, setTogglebar] = useState(false);
+  const [togglebar, setTogglebar] = useState("w-0"); 
+
   return (
     <>
-      <div className="h-[5vh]  ">
+      <div className="  ">
         <Context.Provider value={{ togglebar, setTogglebar }}>
-          <Header />
           <Mode />
-          <Sidebar />
+          <Header />
         </Context.Provider>
       </div>
-      <Home />
+      {/* 👇 Home wrapper gets blur when nav is open */}
+      <div className={togglebar !== "w-0" ? "blur-sm" : ""}>
+        <Home />
+      </div>
+      <Footer />
     </>
   );
 }

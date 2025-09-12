@@ -9,37 +9,37 @@ export const fliplink = [
   {
     image: Pic,
     title: "Project 1",
-    body: "A recreation of esport by react.js",
+    body: "A recreation of esport with react.js",
     link: "https://esport-website-seven.vercel.app",
   },
   {
     image: Nice,
     title: "Project 2",
-    body: "A hotel management system by Django",
+    body: "A hotel management system with Django",
     link: "https://x-empire.onrender.com",
   },
   {
     image: Nice2,
     title: "Project 3",
-    body: "An incommerce website by Next.js",
+    body: "An incommerce website with Next.js",
     link: "https://zestrein-sales.vercel.app/",
   },
   {
     image: Woo,
     title: "Project 4",
-    body: "A property webite by Next.js",
+    body: "A property webite with Next.js",
     link: "https://urban-dealers-app.vercel.app/",
   },
   {
     image: Wow,
     title: "Project 5",
-    body: "An incommerce website by Nexxt.js",
+    body: "An incommerce website with Nexxt.js",
     link: "https://zestrein.vercel.app/",
   },
   {
     image: Wo,
     title: "Project 6",
-    body: "A hotel management system by express.js",
+    body: "A hotel management system with express.js",
     link: "https://x-empire.onrender.com",
   },
 ];

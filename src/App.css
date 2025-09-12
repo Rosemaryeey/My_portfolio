@@ -1,10 +1,19 @@
  /* *{
-  background-color: #080800; 
+  background-color: #080800;
    padding: 0%;
    margin: 0%;
     
    
  } */
+.C{
+    background-color: var( --card_color);
+    color: var(--c_color);
+    .hover\:bg-white:hover {
+    --tw-bg-opacity: 1;
+    background-color: var( --bg_hover);
+    
+}
+}
 
 
  .te{
@@ -12,11 +21,12 @@
  }
 .bo
 {
-  text-shadow: var( --text_shadow);
+  /* text-shadow: var( --text_shadow); */
 }
 .bm{
  background-color: var( --body_background);
  width: screen;
+ overflow: hidden;
 }
 
  ::after,::before{
