@@ -12,7 +12,7 @@
 }
 
 :root{
- --body_background:#080800;
+ --body_background:rgb(14, 14, 1);
   --body_color: white;
   --Link_color: rgb(243, 198, 0);
   --header_color:black;
