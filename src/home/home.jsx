@@ -211,11 +211,12 @@ export const Home = () => {
                       My Name Is Rosemary
                     </h2>
                     <p className="md:text-xl text-base md:text-left text-center  ">
-                      As a passionate full-stack JavaScript developer, I bring
-                      two years of experience in web development, including
-                      HTML, CSS, and JavaScript. I've contributed to two
-                      significant projects and honed my skills through tech hubs
-                      and real-world experience.
+                      I am an accomplished full-stack developer with extensive
+                      experience delivering web applications across both
+                      front-end and back-end environments. I have contributed to
+                      multiple professional projects, continuously refining my
+                      skills through real-world challenges, collaboration, and
+                      engagement with the tech community.
                     </p>
                     <DownloadButton />
                   </div>
@@ -232,6 +233,7 @@ export const Home = () => {
                           2+
                         </span>{" "}
                         Years Of Exprience
+                        <small>and counting</small>
                       </div>
                       <div className=" C  md:w-[20vw] w-[40vw] xl:h-[25vh] md:h-[17vh] h-[25vh] rounded-lg  flex flex-col p-6 justify-around items-center  shadow-md shadow-yellow-500  text-lg">
                         <span
