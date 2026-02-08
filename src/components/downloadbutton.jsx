@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import CV from "../assets/my cv (1).pdf"; // Update with your file path
+import CV from "../assets/Oguezuonu-Ndubuizu Rosemary .pdf"; // Update with your file path
 
 const DownloadButton = () => {
   const [downloadStatus, setDownloadStatus] = useState("idle");
